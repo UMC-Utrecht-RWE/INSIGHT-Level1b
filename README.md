@@ -54,3 +54,14 @@ New: This script is created to analyze data stored in the Common Data Model (CDM
 
 16.	If you find that your files are not in the corresponding level directory, check if the files are in the inbox and move them to the corresponding level directory.
 
+<!-- CITATION -->
+## Citation
+[![DOI](https://zenodo.org/badge/687896572.svg)](https://zenodo.org/doi/10.5281/zenodo.10035166)
+
+<!-- CONTACT -->
+## Contact
+
+Albert Cid Royo - a.cidroyo@umcutrecht.nl
+
+Project Link: [https://github.com/UMC-Utrecht-RWE/INSIGHT-Level1](https://github.com/UMC-Utrecht-RWE/INSIGHT-Level1b)
+
