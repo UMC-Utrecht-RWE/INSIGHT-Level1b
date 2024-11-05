@@ -94,14 +94,15 @@ tables_CDM_1 <- t.interest# t.interest[!t.interest %in% c('EVENTS','MEDICINES')]
 
 createOutput1(tables_CDM_1)
 
-tables_CDM_2 <- c('EVENTS','MEDICINES','VACCINES')
+tables_CDM_2 <- c('EVENTS','MEDICINES','VACCINES', 'PROCEDURES')
 scheme <- list()
 scheme <- scheme[table = tables_CDM_2]
 
 scheme <- expand.grid(c('vx_type','vx_atc'),c('EVENTS','MEDICINES','VACCINES'))
 scheme <- list(EVENTS = list(code = c('event_code','event_free_text'), coding_system = c('event_record_vocabulary','meaning_of_event')),
                MEDICINES = list(code = c('medicinal_product_atc_code','medicinal_product_id')),
-               VACCINES = list(code = c('vx_atc','vx_type')))
+               VACCINES = list(code = c('vx_atc','vx_type')),
+               PROCEDURES = list(code = c('procedure_code'), coding_system = c('procedure_code_vocabulary')))
 
 #Create counts 
 createOutput2(scheme,tables_CDM_2,keep.N = T)           
