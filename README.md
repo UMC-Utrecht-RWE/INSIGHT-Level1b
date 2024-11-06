@@ -1,3 +1,9 @@
+![Status](https://img.shields.io/badge/Study_status-For_publication-blue) 
+
+## ATTENTION
+
+<p style="color: red;">This repository is for publication purposes.</p>
+
 # Aim
 OLD: The aim of this script is to explore which data is stored in the CDM. This can be compared to the study specific specifications of the study variables.
 
