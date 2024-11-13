@@ -1,8 +1,8 @@
 ![Status](https://img.shields.io/badge/Study_status-For_publication-blue) 
 
-## ATTENTION
-
-<p style="color: red;">This repository is for publication purposes.</p>
+> [!IMPORTANT]
+> This is a mirrored repository for publication purposes.
+> For new releases, please request access to https://github.com/UMC-Utrecht-RWE/ConcePTION-INSIGHT-Level1b 
 
 # Aim
 OLD: The aim of this script is to explore which data is stored in the CDM. This can be compared to the study specific specifications of the study variables.
