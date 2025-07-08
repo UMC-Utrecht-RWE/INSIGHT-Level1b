@@ -1,18 +1,4 @@
-#Author: Roel Elbers MSc.
-#email: r.j.h.elbers@umcutrecht.nl
-#Organisation: UMC Utrecht, Utrecht, The Netherlands
-#Date: 06/05/2022
-
-##TODO: This script has 2 procedures which can be splitted in 2 scripts with it's own aim. 
-##Aim 1: Load CDM data into a sqlite database and prepare the database.
-#Input: CDM csv files
-#Output: A SQLite database file
-##Aim 2: Create rds files that are more lean because id and date information is deleted and distinct rows or columns are stored.
-#Input: SQLite database
-#Output 1: WHERECLAUSE .rds files
-#Output 2: ANSWERS .rds files
-#TODO, extra outputs can be distinct date and id columns that can be used to do simple checks that are now done in level 1
-
+#This script tests if a CDM instnace can pass the first step of the level1b
 #Get info for all tables that are in scope of interest
 TABLES2 <- as.data.table(TABLES)[TABLE %in% t.interest, ]
 
